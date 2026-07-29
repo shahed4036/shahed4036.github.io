@@ -1040,3 +1040,18 @@ grid-template-columns:1fr;
 }
 
 }
+.active{
+opacity:1 !important;
+transform:translateY(0) !important;
+}
+
+.about-card,
+.project-card,
+.skill-box,
+.contact-card,
+.achievement-card,
+.timeline-content,
+.research-card{
+opacity:0;
+transform:translateY(40px);
+}
