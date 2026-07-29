@@ -92,17 +92,21 @@ reveal();
 
 // Typing Effect
 
-const words=[
+const words = [
 
-"AI Engineer",
+    "AI Engineer",
 
-"LLM Developer",
+    "Blockchain Engineer",
 
-"NLP Engineer",
+    "LLM Developer",
 
-"FastAPI Developer",
+    "Solidity Developer",
 
-"Researcher"
+    "Machine Learning Engineer",
+
+    "NLP Engineer",
+
+    "Researcher"
 
 ];
 
