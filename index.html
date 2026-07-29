@@ -1,137 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shahed | Portfolio</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+<title>ABU SHAHED | AI Engineer</title>
 
-body{
-background:#0f172a;
-color:white;
-scroll-behavior:smooth;
-}
+<meta name="description"
+content="Portfolio of Abu Shahed - AI Engineer specializing in LLMs, NLP, RAG, FastAPI and Production AI Systems.">
 
-header{
-position:fixed;
-width:100%;
-background:#111827;
-padding:18px 10%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-z-index:1000;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-header h2{
-color:#38bdf8;
-}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-transition:.3s;
-}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
 
-nav a:hover{
-color:#38bdf8;
-}
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-section{
-padding:100px 10%;
-}
-
-.hero{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:40px;
-}
-
-.hero h1{
-font-size:60px;
-}
-
-.hero h3{
-margin:15px 0;
-color:#38bdf8;
-}
-
-.hero p{
-line-height:1.8;
-max-width:550px;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:14px 28px;
-background:#38bdf8;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-}
-
-.card{
-background:#1e293b;
-padding:25px;
-border-radius:12px;
-margin-top:25px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
-margin-top:30px;
-}
-
-.skills span{
-display:inline-block;
-padding:12px 18px;
-margin:10px;
-background:#1e293b;
-border-radius:30px;
-}
-
-footer{
-text-align:center;
-padding:40px;
-background:#111827;
-margin-top:60px;
-}
-
-img{
-width:280px;
-border-radius:50%;
-border:6px solid #38bdf8;
-}
-
-@media(max-width:900px){
-
-.hero{
-flex-direction:column;
-text-align:center;
-height:auto;
-padding-top:150px;
-}
-
-.hero h1{
-font-size:42px;
-}
-
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -139,179 +32,199 @@ font-size:42px;
 
 <header>
 
-<h2>Shahed</h2>
+<div class="container">
+
+<div class="logo">
+
+<h2>ABU SHAHED</h2>
+
+</div>
 
 <nav>
 
-<a href="#about">About</a>
+<ul>
 
-<a href="#projects">Projects</a>
+<li><a href="#home">Home</a></li>
 
-<a href="#skills">Skills</a>
+<li><a href="#about">About</a></li>
 
-<a href="#contact">Contact</a>
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
 
 </nav>
 
-</header>
+<div class="menu">
 
-<section class="hero">
-
-<div>
-
-<h1>Hi, I'm Shahed</h1>
-
-<h3>Future Software Engineer & AI Developer</h3>
-
-<p>
-
-I'm passionate about programming, AI, web development, and building useful projects.
-This website showcases my journey, skills, and future work.
-
-</p>
-
-<a href="#projects" class="btn">View Projects</a>
+<i class="fa-solid fa-bars"></i>
 
 </div>
 
-<div>
+</div>
 
-<img src="https://avatars.githubusercontent.com/shahed4036?v=4">
+</header>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="container hero-content">
+
+<div class="hero-left">
+
+<h4>Hello, I'm</h4>
+
+<h1>ABU SHAHED</h1>
+
+<h2>AI Engineer</h2>
+
+<h3>LLMs • NLP • RAG • FastAPI</h3>
+
+<p>
+
+AI Engineer specializing in Large Language Models, Natural Language
+Processing, Retrieval-Augmented Generation, Prompt Engineering,
+FastAPI and scalable Production AI Systems.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn">
+
+View Projects
+
+</a>
+
+<a href="#contact" class="btn-outline">
+
+Hire Me
+
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="https://github.com/shahed4036" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="#" target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:abushahed490@gmail.com">
+
+<i class="fa-solid fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img
+src="https://avatars.githubusercontent.com/shahed4036?v=4"
+alt="Abu Shahed">
+
+</div>
 
 </div>
 
 </section>
+
+<!-- ABOUT -->
 
 <section id="about">
 
-<h1>About Me</h1>
+<div class="container">
 
-<div class="card">
+<div class="section-title">
+
+<h2>About Me</h2>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-card">
+
+<h3>Who Am I?</h3>
 
 <p>
 
-I'm continuously learning software engineering, artificial intelligence,
-web development, cybersecurity, and modern technologies.
+I'm an AI Engineer passionate about building production-grade
+Artificial Intelligence systems.
 
-My goal is to become a world-class developer and create impactful software.
+I work extensively with
+
+LLMs,
+
+NLP,
+
+Prompt Engineering,
+
+FastAPI,
+
+RAG,
+
+Deep Learning,
+
+Computer Vision
+
+and scalable backend AI services.
 
 </p>
 
 </div>
 
-</section>
+<div class="about-card">
 
-<section id="projects">
+<h3>Education</h3>
 
-<h1>Projects</h1>
+<p>
 
-<div class="grid">
+B.Sc. in Computer Science & Engineering
 
-<div class="card">
+<br>
 
-<h2>Portfolio Website</h2>
+North South University
 
-<p>Personal portfolio hosted on GitHub Pages.</p>
+<br>
 
-</div>
+CGPA : 3.26
 
-<div class="card">
-
-<h2>Future AI Projects</h2>
-
-<p>Machine learning & automation applications.</p>
+</p>
 
 </div>
 
-<div class="card">
+<div class="about-card">
 
-<h2>Web Applications</h2>
+<h3>Location</h3>
 
-<p>Modern responsive websites and full-stack apps.</p>
+<p>
+
+Bangladesh
+
+</p>
 
 </div>
 
 </div>
-
-</section>
-
-<section id="skills">
-
-<h1>Skills</h1>
-
-<div class="skills">
-
-<span>HTML</span>
-
-<span>CSS</span>
-
-<span>JavaScript</span>
-
-<span>Python</span>
-
-<span>Git</span>
-
-<span>GitHub</span>
-
-<span>AI</span>
-
-<span>SQL</span>
 
 </div>
 
 </section>
-
-<section id="contact">
-
-<h1>Contact</h1>
-
-<div class="card">
-
-<p>Email: your-email@example.com</p>
-
-<p>GitHub: https://github.com/shahed4036</p>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 Shahed. Built with HTML, CSS & JavaScript.</p>
-
-</footer>
-
-<script>
-
-window.addEventListener("scroll",()=>{
-
-document.querySelectorAll(".card").forEach(card=>{
-
-const pos=card.getBoundingClientRect().top;
-
-if(pos<window.innerHeight-80){
-
-card.style.transform="translateY(0)";
-card.style.opacity="1";
-
-}
-
-});
-
-});
-
-document.querySelectorAll(".card").forEach(card=>{
-
-card.style.opacity="0";
-
-card.style.transform="translateY(40px)";
-
-card.style.transition=".6s";
-
-});
-
-</script>
-
-</body>
-
-</html>
